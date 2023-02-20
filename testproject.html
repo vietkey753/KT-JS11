@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h3>Form Nhập Thông Tin</h3>
+        ID <input type="text" name="useId" id="useId"><br>
+        Họ và Tên <input type="text" name="useName" id="useName"><br>
+        Email <input type="text" name="useEmail" id="useEmail"><br>
+        Số điện thoại <input type="text" name="usePhone" id="usePhone"><br>
+        Quê quán <input type="text" name="useAddress" id="useAddress"><br>
+        Giới tính <input type="radio" name="sex" id="sex">
+        <button id="submit">Lưu lại</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>ID</th>
+                <th>họ tên</th>
+                <th>Email</th>
+                <th>điện thoại</th>
+                <th>Địa chỉ</th>
+                <th colspan="2">hành động</th>
+            </tr>
+        </thead>
+        <tbody id="formUse"></tbody>
+    </table>
+    <script src="testproject.js"></script>
+</body>
+</html>
